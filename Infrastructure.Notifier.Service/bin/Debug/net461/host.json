@@ -1,0 +1,8 @@
+{
+  "http": {
+    "routePrefix": "danitest",
+    "maxOutstandingRequests": 200,
+    "maxConcurrentRequests": 100,
+    "dynamicThrottlesEnabled": true
+  }
+}

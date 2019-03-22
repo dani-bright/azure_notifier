@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\Travail\\alertes\\Notifier\\Infrastructure.Notifier.Console\\Infrastructure.Notifier.Console.csproj",
+      "projectUniqueName": "W:\\Travail\\alertes\\azure_notifier\\Infrastructure.Notifier.Console\\Infrastructure.Notifier.Console.csproj",
       "projectName": "Infrastructure.Notifier.Console",
-      "projectPath": "W:\\Travail\\alertes\\Notifier\\Infrastructure.Notifier.Console\\Infrastructure.Notifier.Console.csproj",
+      "projectPath": "W:\\Travail\\alertes\\azure_notifier\\Infrastructure.Notifier.Console\\Infrastructure.Notifier.Console.csproj",
       "packagesPath": "C:\\Users\\Bao NGUYEN\\.nuget\\packages\\",
-      "outputPath": "W:\\Travail\\alertes\\Notifier\\Infrastructure.Notifier.Console\\obj\\",
+      "outputPath": "W:\\Travail\\alertes\\azure_notifier\\Infrastructure.Notifier.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

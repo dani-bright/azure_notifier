@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\Travail\\alertes\\Notifier\\Infrastructure.Notifier.Client\\Infrastructure.Notifier.Client.csproj",
+      "projectUniqueName": "W:\\Travail\\alertes\\azure_notifier\\Infrastructure.Notifier.Client\\Infrastructure.Notifier.Client.csproj",
       "projectName": "Infrastructure.Notifier.Client",
-      "projectPath": "W:\\Travail\\alertes\\Notifier\\Infrastructure.Notifier.Client\\Infrastructure.Notifier.Client.csproj",
+      "projectPath": "W:\\Travail\\alertes\\azure_notifier\\Infrastructure.Notifier.Client\\Infrastructure.Notifier.Client.csproj",
       "packagesPath": "C:\\Users\\Bao NGUYEN\\.nuget\\packages\\",
-      "outputPath": "W:\\Travail\\alertes\\Notifier\\Infrastructure.Notifier.Client\\obj\\",
+      "outputPath": "W:\\Travail\\alertes\\azure_notifier\\Infrastructure.Notifier.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
