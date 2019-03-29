@@ -13,10 +13,9 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.functions\1.0.24\build\netstandard1.0\Microsoft.NET.Sdk.Functions.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.functions\1.0.24\build\netstandard1.0\Microsoft.NET.Sdk.Functions.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.functions\1.0.26\build\netstandard1.0\Microsoft.NET.Sdk.Functions.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.functions\1.0.26\build\netstandard1.0\Microsoft.NET.Sdk.Functions.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
-    <PkgMicrosoft_NET_Sdk_Functions Condition=" '$(PkgMicrosoft_NET_Sdk_Functions)' == '' ">C:\Users\Bao NGUYEN\.nuget\packages\microsoft.net.sdk.functions\1.0.24</PkgMicrosoft_NET_Sdk_Functions>
+    <PkgMicrosoft_NET_Sdk_Functions Condition=" '$(PkgMicrosoft_NET_Sdk_Functions)' == '' ">C:\Users\Bao NGUYEN\.nuget\packages\microsoft.net.sdk.functions\1.0.26</PkgMicrosoft_NET_Sdk_Functions>
   </PropertyGroup>
 </Project>

@@ -19,13 +19,6 @@ namespace Infrastructure.Notifier.Service
             string name = req.GetQueryNameValuePairs()
                 .FirstOrDefault(q => string.Compare(q.Key, "name", true) == 0)
                 .Value;
-            string nb1 = req.GetQueryNameValuePairs()
-                .FirstOrDefault(q => string.Compare(q.Key, "nb1", true) == 0)
-                .Value;
-            string nb2 = req.GetQueryNameValuePairs()
-                .FirstOrDefault(q => string.Compare(q.Key, "nb2", true) == 0)
-                .Value;
-            var result = int.Parse(nb1) + int.Parse(nb2);
 
             if (name == null)
             {
@@ -36,7 +29,7 @@ namespace Infrastructure.Notifier.Service
 
             return name == null
                 ? req.CreateResponse(HttpStatusCode.BadRequest, "Please pass a name on the query string or in the request body")
-                : req.CreateResponse(HttpStatusCode.OK, "Hello " + name + " "+ nb1+ " + " + nb2 + " font" + result);
+                : req.CreateResponse(HttpStatusCode.OK, "Hello " + name);
         }
     }
 }
