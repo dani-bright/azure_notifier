@@ -24,14 +24,14 @@ namespace Infrastructure.Notifier.Service
             {
                 var subscribers = new List<Subscriber>
                 {
-                    new Subscriber(subscriptionRequest.UserId)
+                    new Subscriber(subscriptionRequest.UserId,subscriptionRequest.Channel)
                 };
                 var subscription = new Subscription(subscriptionRequest.Topic, subscribers);
                 Subscriptions.Add(subscription);
             }
             else
             {
-                existingSubscription.AddSubscriber(subscriptionRequest.UserId); 
+                existingSubscription.AddSubscriber(subscriptionRequest.UserId, subscriptionRequest.Channel); 
             }
 
         }

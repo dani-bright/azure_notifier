@@ -20,12 +20,12 @@ namespace Infrastructure.Notifier.Service
         public string Topic { get; private set; }
         public List<Subscriber> Subscribers { get; private set; }
 
-        internal void AddSubscriber(string userId)
+        internal void AddSubscriber(string userId, string channel)
         {
             var existingSubscriber = Subscribers.SingleOrDefault(x => x.UserId == userId);
             if (existingSubscriber == null)
             {
-                Subscribers.Add(new Subscriber(userId));
+                Subscribers.Add(new Subscriber(userId, channel));
             }
         }
         internal void DeleteSubscriber(string userId)

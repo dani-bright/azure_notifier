@@ -21,6 +21,7 @@ namespace Infrastructure.Notifier.Service
         {
             if (subscriptionsBlob.Exists())
             {
+                //subscriptionsBlob.Delete();
                 var registerJson = subscriptionsBlob.DownloadText();
                 var register = JsonConvert.DeserializeObject<NotificationRegister>(registerJson);
                 return register;
